@@ -48,7 +48,7 @@ public class gui extends JFrame {
                 sum_b++;
                 jLabel.setText("Result: " + sum_r + "X" + sum_b);
                 jLabel1.setText("Last Scorer: " + b2.getText());
-                if (sum_r == 10)
+                if (sum_b == 10)
                 {
                     jLabel2.setText("The winner is: " + b2.getText());
                     jLabel1.setText("Last Scorer: " + b2.getText());
