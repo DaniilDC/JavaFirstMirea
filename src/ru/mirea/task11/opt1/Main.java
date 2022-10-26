@@ -1,4 +1,4 @@
-package ru.mirea.task11.op1;
+package ru.mirea.task11.opt1;
 
 import javax.swing.*;
 import java.awt.*;
