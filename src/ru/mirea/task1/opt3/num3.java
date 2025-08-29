@@ -23,31 +23,29 @@ public class num3
         While();
         DoWhile();
     }
-    public static void For()
-    {
+
+    public static void For() {
         int sum = 0;
         for (int j : myArray) {
             sum += j;
         }
         System.out.println("\nSum (for) = " + sum);
     }
-    public static void While()
-    {
+
+    public static void While() {
         int sum = 0;
         int i = 0;
-        while (i < myArray.length)
-        {
+        while (i < myArray.length) {
             sum += myArray[i];
             i++;
         }
         System.out.println("Sum (while) = " + sum);
     }
-    public static void DoWhile()
-    {
+
+    public static void DoWhile() {
         int sum = 0;
         int i = 0;
-        do
-        {
+        do {
             sum += myArray[i];
             i++;
         } while (i < myArray.length);
